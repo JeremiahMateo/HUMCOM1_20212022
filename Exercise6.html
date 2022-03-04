@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name = "author" content = "Jeremiah Mateo"/>
+        <meta name = "descirption" content = "An HTML Table of my college schedule"/>
+        <meta name = "keywords" content = "HTML, table, table elements, talbe tags, schedule"/>
+        <title>HTML Schedule</title>
+    </head>
+
+    <!-- Recreate the webpage shown in the next section.
+             a. Line 1-2 -> heading size 1, font face = Verdana
+             b. Line 3 -> Table caption (Course and Year Level)
+             3. You may choose the border, background/BACKGROUND IMAGE and forecolor for the table.
+             4. You may also define your own the font attributes for the table.
+             8 am to 6 pm, 20 rows, 5 columns
+     -->
+    <body>
+        <h1 style= "font-family: Verdana; 
+        text-align: center;">2<sup>nd</sup> Semester Schedule
+                                            <br> Jeremiah Mateo</h1>
+        
+        <table 
+        align="center"
+        border="5px blue"
+        cellpadding="10px"
+        style= "text-align: center;
+        font-family: Lucida Sans;
+        border-color: rgb(75, 75, 75);
+        background-color: rgb(222, 243, 238);"
+        >
+            <caption style= "font-family: Verdana; text-align: center;">BSCS1</caption>
+            <thead>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </thead>
+
+            <tr> <!-- 1 -->
+               <td>8:00AM</td>
+               <td rowspan="6" style= "background-color: rgb(234, 248, 212);"><b>PROGIT</b><br>CA01<br>IAA1</td>
+               <td rowspan="2" style= "background-color: rgb(234, 248, 212);"><b>PROGIT</b><br>F203<br>IAA1</td>
+               <td rowspan="6" style= "background-color: rgb(234, 248, 212);"><b>PROGIT</b><br>CA01<br>IAA1</td>
+               <td rowspan="2" style= "background-color: rgb(234, 248, 212);"><b>PROGIT</b><br>F203<br>IAA1</td>
+               <td rowspan="6" style= "background-color: rgb(248, 243, 195);"><b>SITNET</b><br>D202<br>IAA1</td>
+            </tr>
+
+            <tr> 
+               <td>8:30AM</td>
+            </tr>
+
+            <tr>
+                <td>9:00AM</td>
+                <td rowspan="2" style= "background-color: rgb(248, 243, 195);"><b>SITNET</b><br>F203<br>IAA1</td>
+                <td rowspan="2" style= "background-color: rgb(248, 243, 195);"><b>SITNET</b><br>F203<br>IAA1</td>
+            </tr>
+            
+            <tr>
+                <td>9:30AM</td>
+            </tr>
+
+            <tr>
+                <td>10:00AM</td>
+                <td rowspan="8"></td>
+                <td rowspan="8"></td>
+            </tr>
+            
+            <tr>
+                <td>10:30AM</td>
+            </tr>
+
+            <tr>
+                <td>11:00AM</td>
+                <td rowspan="2" style= "background-color: rgb(206, 255, 247);"><b>SCITES</b><br>F203<br>IAA1</td>
+                <td rowspan="2" style= "background-color: rgb(206, 255, 247);"><b>SCITES</b><br>F203<br>IAA1</td>
+                <td rowspan="2" style= "background-color: rgb(206, 255, 247);"><b>SCITES</b><br>F203<br>IAA1</td>
+            </tr>
+
+            <tr>
+                <td>11:30AM</td>
+            </tr>
+
+            <tr>
+                <td>12:00PM</td>
+            </tr>
+            
+            <tr>
+                <td>12:30PM</td>
+            </tr>
+
+            <tr>
+                <td>1:00PM</td>
+                <td rowspan="2" style= "background-color: rgb(217, 230, 255);"><b>DITRUC</b><br>F203<br>IAA1</td>
+                <td rowspan="2" style= "background-color: rgb(217, 230, 255);"><b>DITRUC</b><br>F203<br>IAA1</td>
+                <td rowspan="2" style= "background-color: rgb(217, 230, 255);"><b>DITRUC</b><br>F203<br>IAA1</td>
+            </tr>
+
+            <tr>
+                <td>1:30PM</td>
+            </tr>
+
+            <tr> 
+                <td>2:00PM</td>
+                <td rowspan="6" style= "background-color: rgb(233, 206, 255);"><b>HUMCOM</b><br>CA02<br>IAA2</td>
+                <td rowspan="3" style= "background-color: rgb(255, 209, 249);"><b>CWORLD</b><br>H502<br>DBB</td>
+                <td rowspan="2"></td>
+                <td rowspan="3" style= "background-color: rgb(255, 209, 249);"><b>CWORLD</b><br>H502<br>DBB</td>
+                <td rowspan="4" style= "background-color: rgb(207, 252, 207);"><b>EDPHYS</b><br>GYM<br>IAA2</td>
+             </tr>
+
+            <tr>
+                <td>2:30PM</td>
+            </tr>
+            
+            <tr>
+                <td>3:00PM</td>
+                <td rowspan="4" style= "background-color: rgb(233, 206, 255);"><b>HUMCOM</b><br>F204<br>IAA2</td>
+            </tr>
+
+            <tr>
+                <td>3:30PM</td>
+                <td rowspan="7"></td>
+                <td rowspan="7"></td>
+            </tr>
+
+            <tr>
+                <td>4:00PM</td>
+            </tr>
+            
+            <tr>
+                <td>4:30PM</td>
+            </tr>
+            
+            <tr>
+                <td>5:00PM</td>
+                <td rowspan="2" style= "background-color: rgb(231, 190, 255);"><b>NSTPRO</b><br>F204<br>IAA2</td>
+                <td rowspan="2" style= "background-color: rgb(231, 190, 255);"><b>NSTPRO</b><br>F204<br>IAA2</td>
+                <td rowspan="2" style= "background-color: rgb(231, 190, 255);"><b>NSTPRO</b><br>F204<br>IAA2</td>
+            </tr>
+            
+            <tr>
+                <td>5:30PM</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
