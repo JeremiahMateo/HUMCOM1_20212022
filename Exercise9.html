@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "" content= "">
+        <meta name= "" content= "">
+        <meta name= "" content= "">
+        <title>Registration Form Jeremiah Mateo</title>
+    </head>
+
+    <body style="margin-left: 30%;
+     margin-right: 30%; 
+     color: rgb(255, 255, 255); 
+     background-color: rgb(112, 112, 112);
+     font-family: lucida sans;">
+        <h1 style="text-align: center;">Sign up now!</h1>
+        
+        <form>
+            <p style="line-height: 0px;">Fields marked (*) are required</p>
+            <fieldset style="width:500px">
+                <legend><p>Your Details</p></legend>
+                <div style="float: left; line-height: 165%;">
+                    <label for="name">Name*</label><br>
+                    <label for="email">Email*</label><br>
+                    <label for="phone">Phone*</label><br>
+                </div>
+                
+                <div style="margin-left: 60px; line-height: 160%;">
+                    <input type="text" size="40" id="name" name="name" placeholder="Full name" required><br>
+                    <input type="email" size="40" id="email" name="email" placeholder="e.g. johndoe@example.net" required><br>
+                    <input type="tel" size="40" id="phone" name="phone" minlength="11" maxlength="11" placeholder="Please enter an eleven digit number" required><br>
+                </div>
+            </fieldset>
+
+            <fieldset style="width:500px">
+                <legend><p>Delivery Address</p></legend>
+                <div style="float: left; line-height: 160%;">
+                    <label for="address1">Address 1*</label><br>
+                    <label for="district/barangay">District/Barangay*</label><br>
+                    <label for="city">City*</label><br>
+                    <label for="ZIP_code">ZIP Code*</label><br>
+                    <label for="province">Province*</label>
+                </div>
+                    
+                <div style= "margin-left: 150px; line-height: 160%;">
+                    <input type="text" size="50" id="address1" name="address1" placeholder="House/Apt. Number and Street" required><br>
+                    <input type="text" size="50" id="district/barangay" name="district/barangay" required width="500px"><br>
+                    <input list="cities" required>
+                        <datalist style="width: 100px" id="cities"><!-- city -->
+                            <option value="Antipolo">Antipolo</option>
+                            <option value="Caloocan">Caloocan</option>
+                            <option value="Cebu City">Cebu City</option>
+                            <option value="Davao City">Davao City</option>
+                            <option value="Manila">Manila</option>
+                            <option value="Palayan">Palayan</option>
+                            <option value="Pasig">Pasig</option>
+                            <option value="Puerto Princesa">Puerto Princesa</option>
+                            <option value="Quezon City">Quezon City</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="Santo Tomas">Santo Tomas</option>
+                        </datalist><br>
+                    <input type="text" size="50" id="ZIP_code" name="ZIP_code" minlength="4" maxlength="4" required><br>
+                    <input list="provinces" required>
+                        <datalist style="width: 100px" id="provinces"><!-- city -->
+                            <option value="Abra">Abra</option>
+                            <option value="Agusan del Norte">Agusan del Norte</option>
+                            <option value="Agusan del Sur">Agusan del Sur</option>
+                            <option value="Aklan">Aklan</option>
+                            <option value="Albay">Albay</option>
+                            <option value="Antique">Antique</option>
+                            <option value="Apayao">Apayao</option>
+                            <option value="Aurora">Aurora</option>
+                            <option value="Basilan">Basilan</option>
+                            <option value="Bataan">Bataan</option>
+                            <option value="Batanes">Batanes</option>
+                        </datalist><br>
+                    
+                </div>
+            </fieldset>
+
+        <fieldset style="width:500px">
+            <legend><p>Membership Information</p></legend>
+            <div style="float: left; width: 130px;">
+                <label for="username" style="line-height: 165%;">Username*</label><br>
+                <label for="password" style="line-height: 165%;">Password*</label><br>
+                <label for="password">Magazine Subscriptions</label><br>
+            </div>
+
+                <div style="margin-left: 150px; line-height: 160%;">
+                    <input type="text" size="50" id="username" name="username" min="8" placeholder="At least 8 alphanumeric characters" minlength="8" required>
+                    <input type="password" size="50" id="password" name="password" placeholder="At least 8 alphanumeric characters" minlength="8" required>
+                    <input type="checkbox" id="mag1" name="mag1" value="PCMagazine">
+                    <label for="mag1">PCMagazine</label><br>
+                    <input type="checkbox" id="mag2" name="mag2" value="Wired">
+                    <label for="mag2">Wired</label><br>
+                    <input type="checkbox" id="mag3" name="mag3" value="Computerworld">
+                    <label for="mag3">Computerworld</label><br>
+                    <input type="checkbox" id="mag4" name="mag4" value="I don't subscribe">
+                    <label for="mag4">I don't subscribe</label><br>
+                    <input type="checkbox" id="mag5" name="mag5" value="Other">
+                    <label for="mag5">Other</label>
+                </div>
+            </fieldset>
+            
+        <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
