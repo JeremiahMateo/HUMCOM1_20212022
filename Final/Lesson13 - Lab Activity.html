@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+
+        <script>
+            // function
+            function sayHello(who) {
+                document.write("Hello, "+ who);
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            // this is very similar to Java, C# and other such languages
+            document.write("Hello, World");
+            var myvariable = 5; // can be any kind of variable
+
+            // opeartions
+                //concatenations
+            var words = "This is ";
+            var moreWords = "a sentence";
+            var sentence = words + moreWords;
+            document.write(sentence);
+
+                // math
+            var num1 = 5;
+            var num2 = 3;
+            var total = num1++;
+            document.write(total);
+
+            // strings
+            var alpha = "ABCDEFG";
+            var length =alpha.length; // VEERRRY similar to java
+            document.write(length);
+
+            //substring like Java
+                //index starts at 0
+            var result = alpha.substring(3,5); // prints the value at first index to value before the second index
+            document.write(result);
+
+            // arrays
+                var a = new Array(7);// size
+                a[0] = "cat";
+                a[1] = "dog";
+                a[2] = 95;
+                a[3] = true;
+
+                //or
+
+                var b = new Array("cat", "dog");
+
+                //or
+
+                var c = ["cat", "turtle", 52];
+
+                // call function
+                sayHello("Bob");
+                document.write("<br>");
+                sayHello("Mary");
+
+                document.write("<br>")
+
+                // flow controwl statement
+                // == can be used for strings (case-sensitive)
+                // everything else is pretty much the same as Java
+                var x = 7;
+                if (x<10)
+                {
+                    alert(x);
+                } else{
+                    document.write("The condition is not true")
+                }
+
+                // loops
+                for (i=0;i<5;i++)
+                {
+                    document.write(i + "<br>");
+                }
+        </script>
+    </body>
+</html>
