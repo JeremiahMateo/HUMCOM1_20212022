@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremiah Mateo">
+    <meta name="keywords" content="order, cart, delivery, donut, drinks, sweet">
+    <meta name="description" content="Page to place an order">
+    <title>Place an order</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/script.js"> </script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <a href="index.html" title="Home"><img src="img/logo_temp.png" alt="Donut logo"></img></a>
+        </div>
+        <div class="menu">
+            <a href="products.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="(events).html">Events</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="location map.html">Locations</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+    </div>
+    
+    <div class="order">
+        <h1>PLACE AN ORDER</h1>
+        <form action="" method="get" class="order">
+            <fieldset>
+                <div class="order-form">
+                    <div>
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required placeholder="Ex: Rick Astley">
+                    </div>
+                    <div>
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required placeholder="Ex: email@website.com">
+                    </div>
+                    <div>
+                        <label for="number">Phone No.*</label>
+                        <input type="tel" id="number" name="number" required>
+                    </div>
+                    <div>
+                        <label for="items">Items*</label>
+                        <select name="items" id="items" required>
+                            <option value="donut1">Donut 1</option>
+                            <option value="donut2">Donut 2</option>
+                            <option value="donut3">Donut 3</option>
+                            <option value="donut4">Donut 4</option>
+                            <option value="donut5">Donut 5</option>
+                            <option value="donut6">Donut 6</option>
+                            <option value="donut7">Donut 7</option>
+                            <option value="donut8">Donut 8</option>
+                            <option value="donut9">Donut 9</option>
+                            <option value="donut10">Donut 10</option>
+
+                            <option value="drink1">Drink 1</option>
+                            <option value="drink2">Drink 2</option>
+                            <option value="drink3">Drink 3</option>
+                            <option value="drink4">Drink 4</option>
+                            <option value="drink5">Drink 5</option>
+                            <option value="drink6">Drink 6</option>
+                            <option value="drink7">Drink 7</option>
+                            <option value="drink8">Drink 8</option>
+                            <option value="drink9">Drink 9</option>
+                            <option value="dorink10">Drink 10</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="location">Location*</label>
+                        <input type="text" id="location" name="location" required placeholder="City, Building, Apt. No.">
+                    </div>
+                    <div>
+                        <label for="request">Any requests? (Optional)</label>
+                        <textarea name="request" id="request" rows="5"></textarea>
+                    </div>
+
+                    <button onclick="order()" type="submit">Place Order</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <a href="index.html">Home</a>
+        <a href="products.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="(events).html">Events</a>
+        <a href="contact us.html">Contact Us</a>
+        <a href="location map.html">Locations</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="gallery.html">Gallery</a>
+    </footer>
+
+
+</html>

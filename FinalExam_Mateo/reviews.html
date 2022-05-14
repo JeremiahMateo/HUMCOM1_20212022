@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremiah Mateo">
+    <meta name="keywords" content="Donut, review, donut, submit, input, experience">
+    <meta name="description" content="Submit your reviews of Donut">
+    <title>Give us a review</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/script.js"> </script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html" title="Home"><img src="img/logo_temp.png" alt="Donut logo"></img></a>
+        </div>
+        <div class="menu">
+            <a href="products.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="(events).html">Events</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="location map.html">Locations</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+    </div>
+
+    <div class="container-review">
+        <h1>Wanna give us a review?</h1>
+        <p>Share your experience with us.</p>
+    </div>
+
+    <div class="review-form">
+        <form action="" method="">
+            <fieldset>
+                <legend></legend>
+                    <div>
+                        <label for="r-name">Name (Optional)</label>
+                        <input type="text" id="r-name" name="r-name" placeholder="Ex. John Doe">
+                    </div>
+                    <div>
+                        <label for="r-email">Email*</label>
+                        <input type="email" id="r-email" name="r-email" placeholder="Please let us get in touch with you">
+                    </div>
+                    <div>
+                        <label for="rating">Rate us (1 - worst, 10 - best)*</label>
+                        <select name="rating" id="rating" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="r-message">Review*</label>
+                        <textarea name="r-message" id="r-message" rows="5" required></textarea>
+                    </div>
+                    <button onclick="review()" type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+<a href="index.html">Home</a>
+    <a href="products.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="(events).html">Events</a>
+    <a href="contact us.html">Contact Us</a>
+    <a href="location map.html">Locations</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="gallery.html">Gallery</a>
+</footer>
+
+</html>
