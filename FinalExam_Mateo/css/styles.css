@@ -1,0 +1,536 @@
+* {box-sizing: border-box;
+    /* border: 3px solid rgb(0, 0, 0); */
+}
+
+html{
+    font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(245, 254, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+.iframe{
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(57, 40, 14);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-bottom: 0;
+}footer a{
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.container{
+    position: relative;
+    padding: .5rem 3rem;
+    width: 100%;
+    margin: 0 auto;
+}.about{
+    position: absolute;
+    margin-left: 10%;
+    top: 12.5%;
+}.about video{
+    width: 30%;
+    border-radius: 15px;
+}
+
+.about2{
+    position: absolute;
+    top: 12.5%;
+    margin: 2rem 0 0 55%;
+}.about2 video{
+    width: 70%;
+    border-radius: 15px;
+}
+
+.container-padding{
+    padding: 2rem 0;
+}
+
+.media-center{
+    margin: 0 auto 2rem;
+    width: 30%;
+    display: block;
+    border-radius: 15px;
+    
+}
+
+.container-pink{
+    background-color: rgb(242, 0, 169);
+    padding: 2em 3rem;
+    width: 100%;
+    color: white;
+    position: relative;
+}.container-pink .line-white{
+    margin-left: 0;
+}.container-pink img{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+.container-pink2{
+    background-color: rgb(242, 0, 169);
+    padding: 2em 3rem;
+    width: 100%;
+    color: white;
+    position: relative;
+}.container-pink2 .line-white{
+    margin-left: 0;
+}.container-pink2 img{
+    width: 30%;
+    margin:0 auto;
+}
+
+.container-2{
+    margin-top: 5rem;
+    position: relative;
+    padding: .125rem 0;
+}
+
+.container-right{
+    margin: 0 10% 7rem 50%;
+    text-align: right;
+} .container-right .line{
+    margin-right: 0;
+}.container-right h1{
+    text-align: right;
+}
+
+.pink{
+    color: rgb(242, 0, 169);
+}
+
+.shadow{
+    text-shadow: 0 0 10px rgb(0, 38, 128);
+}
+
+.container-left{
+    margin: 0 50% 7rem 10%;
+} .container-left h1{
+    text-align: left;
+} .container-left .line{
+    margin-left: 0;
+}
+
+.intro-bg{
+    width: 100%;
+    padding: 5rem auto;
+    
+}.intro-bg img{
+    margin: -17% auto 0;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.container-intro{
+    width: 60%;
+    padding: 1em 5em;
+
+    position: absolute;
+    top: 10%;
+    right: 10%;
+
+}.container-intro h1{
+    text-align: right;
+    font-size: 5em;
+    color: white;
+} 
+
+/* @media only screen and (max-width: 768px) {
+    h1{
+        text-align: center;
+    }
+} */
+
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+    width: 100%;
+    padding: 1em 1.5em;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 2px);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.125em 0;
+}.menu a{
+    margin: 0 .5rem;
+    color: black;
+}
+
+.logo img{
+    border-radius: 10px;
+    margin: 0 0 0 1rem;
+    float: left;
+    width: 15%;
+}
+
+.btn{
+    font-size: 1.25rem;
+    background-color: rgb(242, 0, 169);
+    border: 2px solid rgb(242, 0, 169);
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem 3rem;
+}
+
+.btn-intro{
+    float: right;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: rgb(242, 0, 169);
+}
+
+/* WE DEDICATED ====================== */
+
+.container-center{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.line{
+    background-color: rgb(242, 0, 169);
+    height: 3px;
+    width: 30%;
+    margin: auto;
+}
+
+.p-home-dedicated{
+    margin-bottom: 30px;
+}
+
+/* HOTTEST =============================== */
+
+.container-hottest{
+    background-color: rgb(242, 0, 169);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 2em 2em;
+    text-align: center;
+    float:left;
+    width: 100%;
+
+}.container-hottest h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.line-white{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 30%;
+    margin: auto;
+}
+
+.container-home-items{
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-home-item{
+    border: 1.125px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+    /* height: 400px; */
+    width:20%;
+    min-width: initial;
+    max-width: 175px;
+    padding: 1em 1em;
+    margin: 0 .125rem;
+    /* display: inline-block; */
+}
+
+.hottest-img{
+    margin-bottom: 2rem;
+}.hottest-img img{
+    width: 80%;
+    height: 80%;
+    filter: drop-shadow(0 0 .25rem black);
+}
+
+.uppcase{
+    text-transform:uppercase;
+}
+
+.p-hottest{
+    font-size: .8em;
+    margin-bottom: 1.5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.line-white-item{
+    background-color: rgb(255, 255, 255);
+    height: 1.125px;
+    width: 70%;
+    margin: auto;
+}
+
+.btn-white{
+    background-color: white;
+    border: 1.5px solid white;
+    color: transparent;
+    text-shadow: 0 0 0 rgb(242, 0, 169);
+}
+
+.btn-white:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: transparent;
+    text-shadow: 0 0 0 white;
+}
+
+/* Reviews ======================= */
+
+.container-reviews{
+    background-color: rgb(232, 253, 255);
+    padding: .5rem;
+    margin: 0 0 3rem;
+}.container-reviews h2{
+    text-align: center;
+}
+
+.wrapper-users{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review{
+    margin-left: 0;
+    width: calc(100%/3);
+    margin: 0 .5rem;
+    padding: 1rem .75rem;
+    background-color: white;
+}.review q{
+    font-style: oblique;
+}
+.review img{
+    border-radius: 10px;
+}
+
+.header-review{
+    margin-bottom: 1rem;
+}.header-review img{
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    vertical-align: middle;
+}.header-review p{
+    display: inline-block;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+
+
+/* GALLERY ======================================================
+    improved/more organized CSS. Maybe*/
+.wrapper
+{
+    padding: 3rem;
+}
+.wrapper .gallery{
+    padding: 2rem;
+    width: 100%;
+    float: left;
+}
+.wrapper .heading{
+    border-bottom: 4px rgb(242, 0, 169) solid;
+    width: 40%;
+    margin: 0 auto 3rem;
+}
+.wrapper .gallery .imgs{
+    margin: 0 auto;
+    width: 90%;
+}
+.wrapper .gallery .col{
+    float: left;
+    width: calc(100%/3.125);
+}
+.wrapper .gallery .col-2{
+
+    margin: auto .35rem;
+}
+.wrapper .gallery .col img{
+    width: 100%;
+    margin: .125rem auto;
+    border-radius: 5px;
+}
+
+/* CONTACT US ====================================== */
+.container-contact{
+    float: left;
+    margin: 5rem 15% 10%;
+} 
+.container-contact h1{
+    text-align: left;
+}
+
+.contact-form{
+    display: inline-block;
+    width: 25%;
+    margin: 3rem 0;
+}
+.contact-form legend{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+button{
+    background-color: rgb(242, 0, 169);
+    color: white;
+    border: 1px solid rgb(242,0,169);
+    border-radius: 5px;
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+label{
+    display: block;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 5px;
+    margin: .125rem auto 2rem;
+    border-radius: 5px;
+    border: 1.4px solid grey;
+    background-color: white;
+}
+
+
+/* REVIEWS ====================================== */
+.container-review{
+    float: left;
+    margin: 5rem 15% 10%;
+    width: 30%;
+} 
+.container-review h1{
+    text-align: left;
+}
+
+.review-form{
+    display: inline-block;
+    width: 25%;
+    margin: 3rem 0;
+}
+.review-form legend{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+button{
+    background-color: rgb(242, 0, 169);
+    color: white;
+    border: 1px solid rgb(242,0,169);
+    border-radius: 5px;
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+label{
+    display: block;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 5px;
+    margin: .125rem auto 2rem;
+    border-radius: 5px;
+    border: 1.4px solid grey;
+    background-color: white;
+}
+
+/* ORDER ===================================== */
+
+.order{
+    width: 50%;
+    margin: 5rem auto;
+
+}
+
+
+
+
+
+
+
